@@ -5,19 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
 
     <title>Megan Kelley</title>
 
   </head>
   
-  <body class="p-3 mb-2 bg-dark text-white">
+ <body class="p-3 m-2">
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #000";>
+      <nav class="navbar fixed-top navbar-expand-lg";>
           <div class="container-fluid">
-          <a class="navbar-brand">MK Fan Page</a>
+            <a class="navbar-brand" href="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\index.html">MK Fan Page</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,22 +37,33 @@
         <p>The source to find all of the new relevant content about Megan's life.</p>
         <div class="row">
           <div class="col-sm-4">
-            <img class="img-fluid" alt="Responsive image" src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\Sachi.jpg" class="img-fluid">
+           
+            <img class="img-thumbnail" src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\Sachi.jpg" onclick="document.getElementById('modal00').style.display='block'">
+          </div>
+           <!-- Code Inspo from W3 School -->
+          <div id="modal00" class="modal" onclick="this.style.display='none'">
+            <span class="button hover-red xlarge display-topright">&times;</span>
+            <div class="modal-content animate-zoom">
+              <img src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\Sachi.jpg" style="width:100%">
+            </div>
+
           </div>
           <div class="col-sm-4"></div>
           <div class="col-sm-4">
-            <img class="img-fluid" alt="Responsive image" src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\Transformers.jpg" class="img-fluid">
+            <img class="img-thumbnail" src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\Transformers.jpg" onclick="document.getElementById('modal01').style.display='block'">
           </div>
+
+          <!-- Code Inspo from W3 School -->
+          <div id="modal01" class="modal" onclick="this.style.display='none'">
+            <span class="button hover-red xlarge display-topright">&times;</span>
+            <div class="modal-content animate-zoom">
+              <img src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\Transformers.jpg" style="width:100%">
+            </div>
+
+          </div>
+        
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
-          <img class="img-fluid" alt="Responsive image" src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\Sachi and Boyfriend.jpeg">
-        </div>
-        <div class="col-sm-4"></div>
-
       </div>
     </div>
   </main>

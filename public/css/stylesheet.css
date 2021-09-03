@@ -1,3 +1,10 @@
+body {background-color: black;
+    color:white;}
+header {background-color:#FF1493;}
+nav {background-color:black;}
 main {padding-top:5%;}
-ul {padding-top:5%;}
+ul {padding-top:5%; color: black;}
+a {color:#FF1493;;}
 .navbar-brand {color: #FF1493;}
+.table {color:white;}
+.list-group-item {background-color: black; color:white;}

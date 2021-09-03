@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/stylesheet.css">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/stylesheet.css">
     <title>Books</title>
 
   </head>
   
-  <body class="p-3 mb-2 bg-dark text-white">
+  <body class="p-3 m-2">
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #000";>
+        <nav class="navbar fixed-top navbar-expand-lg";>
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">MK Fan Page</a>
+              <a class="navbar-brand" href="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\index.html">MK Fan Page</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -31,8 +31,9 @@
         </header>
 
     <main>
-      <div class="table-responsive">      
-      <table class="table table-hover align-middle table-light">
+      <div class="table-responsive">  
+        <h1>Favorite Books</h1>
+        <table class="table table-hover">
         <thead>
           <tr>
             <th scope="col">Title</th>
@@ -75,7 +76,7 @@
           <tr>
             <th scope="row">Super Easy Plant-Based Cookbook</th>
             <td>Kathy A. Davis</td>
-            <td>2014</td>
+            <td>2021</td>
             <td>Rockridge Press</td>
             <td>168</td>
             <td>$13.43</td>
@@ -83,17 +84,85 @@
           </tr>
 
           <tr>
-            <th scope="row">Afro-Vegan</th>
-            <td>Bryant Terry</td>
-            <td>2014</td>
-            <td>Ten Speed Press</td>
-            <td>224</td>
-            <td>$16.79</td>
+            <th scope="row">The Plant Based Diet for Beginners</th>
+            <td>Gabriel Miller</td>
+            <td>2019</td>
+            <td>Rockridge Press</td>
+            <td>168</td>
+            <td>$13.66</td>
             
           </tr>
         </tbody>
       </table>
     </div>
+
+    <div class="row">
+     <div class="col-sm-8">
+    <div class="form-responsive">      
+        <h2> New Book Form</h2>
+        
+        <form>
+
+        <div class="mb-3">
+          <label for="InputBookName" class="form-label">Book Name</label>
+          <input type="text" class="form-control" id="InputBookName">
+        </div>
+
+        <div class="mb-3">
+            <label for="InputAuthor" class="form-label">Author</label>
+          <input type="text" class="form-control" id="InputAuthor">
+          </div>
+    
+        <div class="mb-3">
+            <label for="InputYearPublished" class="form-label">Year Published</label>
+            <input type="text" class="form-control" id="InputYearPublished">
+        </div>
+
+        <div class="mb-3">
+            <label for="InputPublisher" class="form-label">Publisher</label>
+            <input type="text" class="form-control" id="InputPublisher">
+        </div>
+
+        <div class="mb-3">
+            <label for="InputPageNumber" class="form-label">Page Number</label>
+            <input type="number" class="form-control" id="InputPageNumber">
+        </div>
+       
+        <div class="mb-3">
+        <label for="InputPrice" class="form-label">Price</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">$</span>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+</div>
+
+<div class="col-sm-4">
+    <img class="img-thumbnail" alt="Responsive image" src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\plantbased.jpg">
+    
+</div>
+
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+    <img class="img-thumbnail"  src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\vegindia.jpg">
+</div>
+<div class="col-sm-4">
+    <img class="img-thumbnail" src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\afrovegan.jpg">
+</div>
+<div class="col-sm-4">
+    <img class="img-thumbnail" src="C:\Users\sachi\Dropbox\PC\Documents\GitHub\1-html-review-sananias\public\img\plantbased2.jpg">
+
+</div>
+</div>
+
 </main>
   </body>
   
