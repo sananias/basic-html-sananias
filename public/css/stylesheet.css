@@ -1,10 +1,12 @@
 body {background-color: black;
     color:white;}
-header {background-color:#FF1493;}
-nav {background-color:black;}
+header {background-color: white;}
+p {color:#FF1493; font-size:8px;}
 main {padding-top:5%;}
 ul {padding-top:5%; color: black;}
-a {color:#FF1493;;}
+a {color:#FF1493;}
+nav {background-color: white;}
 .navbar-brand {color: #FF1493;}
 .table {color:white;}
 .list-group-item {background-color: black; color:white;}
+#recipe {padding-top:5%;}
